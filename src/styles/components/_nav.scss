@@ -1,0 +1,21 @@
+.menu {
+  display: flex;
+  padding: 0;
+  list-style: none;
+
+  .menu__link {
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #6505cc;
+    padding: 0.675rem;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+
+    &[aria-current="page"] {
+      border-bottom: 8px solid #6505cc;
+    }
+  }
+}
